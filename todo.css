@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    
+}
+
+body{
+    background-color:antiquewhite;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:30px;
+    background-image: url("seamless-pattern-business-concept-background-vector-43494850.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    width:500px;
+    text-align:center;
+    text-shadow:1px 2px 2px black;
+    border:2px double black;
+    border-radius:10px;
+    background:linear-gradient(135deg,#aa9fc0,#dab8d1);
+    padding:10px;
+    margin-bottom:20px;
+}
+
+div{
+    width:500px;
+    min-height:800px;
+    border:2px double black;
+    border-radius:10px;
+    background:linear-gradient(135deg,#948ea2,#c8a9bf);
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+input{
+    width:250px;
+    height:40px;
+    border-radius:10px;
+    padding:10px;
+    margin-right:10px;
+    border:none;
+}
+
+button{
+    width:90px;
+    height:35px;
+    border-radius:10px;
+    cursor:pointer;
+}
+ol{
+    width:100%;
+    background:rgba(255,255,255,0.3);
+    backdrop-filter:blur(15px);
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    margin-top:20px;
+}
+li{
+    margin:10px 0;
+    padding:8px 12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#pendingCount,#completedCount{
+    margin-top:15px;
+    font-weight:bold;
+}
+.completed-btn{
+    background-color:green;
+    color: white;
+    border: none;
+}
+.pending-btn{
+    background-color: red;
+    color:white;
+    border:none;
+}

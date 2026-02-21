@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="todoicon.jpg">
+    
+    <title>Todo list</title>
+    <link rel="stylesheet" href="todo.css">
+    
+    
+</head>
+<body>
+    <h1>Todo list</h1>
+    <div>
+    <input id="input"><br>
+    <button onclick="add()">Add Task</button>
+    <ol id="tasklist">
+        <li>Tense learning
+            
+            <button onclick="completetask(event)">Completed</button>
+            <button onclick="pendingtask(event)">Pending</button>
+            <button onclick="deletetask(event)">Delete</button>
+        
+    </li>
+
+    </ol>
+    
+    <p id="pendingCount">Pending count: 0 </p>
+    <p id="completedCount">Completed count: 0 </p>
+</div>
+    <script src="todo.js"></script>
+</body>
+</html>
